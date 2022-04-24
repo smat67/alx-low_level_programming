@@ -1,9 +1,9 @@
-#ifndef MAIN_H
+i#ifndef MAIN_H
 #define MAIN_H
 
 /**
  * File: holberton.h
- * Auth: Gedeon Obae Gekonge
+ * Auth: sheillah
  * Desc: Header file containing prototypes for all functions
  *       used in the 0x05-pointers_arrays_strings directory.
  */
@@ -18,6 +18,7 @@ char *string_toupper(char *);
 char *cap_string(char *);
 char *leet(char *);
 char *rot13(char *);
+char *rot13(char *str)
 void print_number(int n);
 char *infinite_add(char *n1, char *n2, char *r, int size_r);
 void print_buffer(char *b, int size);
