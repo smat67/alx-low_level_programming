@@ -1,20 +1,23 @@
+/*
+ * File: 4-rev_array.c
+ * Auth: Gedeon Obae Gekonge
+ */
+
 #include "main.h"
 
 /**
- * reverse_array - reverse arrays content of integers
- * @a: array of integers
- * @n: elements of arrays
- * Return: Always 0 if successful
+ * reverse_array - Reverses the content of an array of integers.
+ * @a: The array of integers to be reversed.
+ * @n: The number of elements in the array.
  */
-
 void reverse_array(int *a, int n)
 {
-	int x, y;
+	int tmp, index;
 
-	for (x = 0; x < (n / 2); x++)
+	for (index = n - 1; index >= n / 2; index--)
 	{
-		y = a[x];
-		a[x] = a[n - x - 1];
-		a[n - x - 1] = y;
+		tmp = a[n - 1 - index];
+		a[n - 1 - index] = a[index];
+		a[index] = tmp;
 	}
 }

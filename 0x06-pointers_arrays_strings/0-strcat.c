@@ -1,24 +1,15 @@
-<<<<<<< HEAD
-=======
 /*
  * File: 0-strcat.c
- * Auth: smat
+ * Auth: Geeon Obae Gekonge
  */
 
->>>>>>> origin
 #include <stdio.h>
 #include "main.h"
 
 /**
-<<<<<<< HEAD
- * _strlen - returns the length of a string
- * *@str:a string of length to be returned
- * Return: returns the length of a string
-=======
  *_strlen - returns the length of a string
  *@str:a string of length to be returned
  *Return: returns the length of a string
->>>>>>> origin
  */
 int _strlen(char *str)
 {
@@ -32,18 +23,6 @@ int _strlen(char *str)
 
 	return (length);
 
-<<<<<<< HEAD
-int _strlen(char *str)
-{
-	int length = 0;
-
-	while (*str)
-	{
-		str++;
-		length++;
-	}
-	return (length);
-=======
 }
 
 
@@ -69,5 +48,4 @@ char *_strcat(char *dest, char *src)
 	*dest = *cat;
 
 	return (cat);
->>>>>>> origin
 }
