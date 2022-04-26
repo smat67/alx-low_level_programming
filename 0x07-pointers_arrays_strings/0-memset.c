@@ -8,7 +8,7 @@
  * Return: memory area
  */
 
-void *_memset(char *s, char b, unsigned int n)
+char *_memset(char *s, char b, unsigned int n)
 {
 
 	int size = n;/* accept positive size only */
