@@ -1,7 +1,7 @@
 
 /*
  * File: 3-print_all.c
- * Auth: Gedeon Obae Gekonge
+ * Auth: Sheilah Matsvimbo
  */
 
 #include "variadic_functions.h"
