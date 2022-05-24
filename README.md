@@ -4,5 +4,5 @@ c programming
 
 First Sprint
 
-by Sheillah
+by Sheillaiih
 static libraries readme
