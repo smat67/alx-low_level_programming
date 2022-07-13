@@ -1,8 +1,3 @@
-/*
- * File: 0-print_dlistint.c
- * Auth: Gedeon Obae Gekonge
- */
-
 #include "lists.h"
 
 /**
